@@ -1,0 +1,24 @@
+BEGIN
+	INPUT examMarks
+	SET examMark = 80,60,40,0  
+	IF (examMark>=80 AND examMark <=100) THEN
+     	PRINT "Distinction"
+END IF
+
+  	ELSE IF(examMark>=60 AND examMark <80) THEN
+	PRINT "Merit"
+END ELSE
+
+	IF (examMark>=40 AND examMark <60) THEN
+	PRINT "Pass"
+END IF
+
+	ELSE IF(examMark<40 AND examMark >0) THEN
+	PRINT "Fail"
+
+END ELSE  
+
+	PRINT "GradeAwarded"
+ (>= 80 Distinction >= 60 Merit >= 40 Pass < 40 fail)   	
+
+

@@ -1,0 +1,35 @@
+
+BEGIN
+
+	/*INPUT numbersArray[] = {65,56,19,36,43,34},sum,number,n,average - Visual Aid*/ 
+
+	SET n = 0, number = 0, numbersArray[] = [6]
+
+FOR L from 1 to 6 increment BY 1
+	INPUT/PROMPT FOR examMark
+	numbersArray[L] = examMark
+	n = numbersArray[L] + n
+END FOR
+	number = n/L-1
+	PRINT "The sum of the marks are: " + n + " and the average of the students is:" + number
+	
+END
+
+
+DONT USE BELOW, ONLY FOR SHIT
+
+BEGIN 
+
+	INPUT numbersArray [] = {65,56,19,36,43,34}
+	SET n = 0,number = 0;
+	FOR x FROM 1 to 6 increment BY 1
+        {input n = n + numbersArray[x]
+	       }
+        END FOR
+	number = n/x	
+	
+
+
+       
+for x from 1 to 10 increment by 1 # increment by 1 is optional  input age  totalAge = totalAge + age  endFor 
+ 
